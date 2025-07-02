@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <link rel="stylesheet" type="text/css" href="./src/main.css" />
+    <title>INEAR</title>
+  </head>
+  <body>
+    <!-- <my-navbar></my-navbar>
+    <div id="outlet"></div>
+    <my-footer></my-footer> -->
+
+    <header>
+      <nav
+        class="flex flex-row justify-center items-center max-w-screen-xl mx-auto w-full"
+      >
+        <ul class="flex flex-row w-full justify-between">
+          <li>
+            <a href="#">
+              <img
+                class="w-full p-[16px]"
+                src="./src/assets/img/logo-b.png"
+                alt=""
+              />
+            </a>
+          </li>
+          <li class="items-center hidden md:flex">
+            <ul class="flex flex-row gap-4">
+              <li>
+                <a class="w-full p-[16px]" href="#">首頁</a>
+              </li>
+              <li>
+                <a class="w-full p-[16px]" href="#">最新消息</a>
+              </li>
+              <li>
+                <a class="w-full p-[16px]" href="#">商品列表</a>
+              </li>
+              <li>
+                <a class="w-full p-[16px]" href="#">關於我們</a>
+              </li>
+            </ul>
+          </li>
+          <li class="flex items-center flex-row">
+            <a href="#">
+              <img
+                class="w-full p-[16px]"
+                src="./src/assets/img/logo-search-b.png"
+                alt=""
+              />
+            </a>
+            <a class="items-center flex md:hidden">
+              <img
+                class="w-full p-[16px]"
+                src="./src/assets/img/logo-nav-b.png"
+                alt=""
+              />
+            </a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <section
+        class="bg-[url('./src/assets/img/bg-head.png')] bg-center h-[634px] flex justify-center items-end md:items-center"
+      >
+        <div class="max-w-[636px] text-white md:ml-100 xl:ml-160 px-10 pb-20">
+          <h1 class="text-4xl">INEAR PRO MAX</h1>
+          <p>
+            9/16 - 10/30 官網搶先販售<br />
+            新色上市，搭載最新降噪技術，提供給您最高音質享受，採用適應性演算法，快速處理音效，讓您享受更高傳真的效果。
+          </p>
+        </div>
+      </section>
+    </main>
+
+    <script type="module" src="./src/main.js"></script>
+  </body>
+</html>
